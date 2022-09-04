@@ -3,14 +3,49 @@
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=
+   <meta name="viewport" content="width=device-width
    , initial-scale=1.0">
+   <script src="javascript.js"></script>
    <title>Things You Can Do With JavaScript</title>
 </head>
 <body>
    <main id="main-doc">
     <section class="main-section" id="strings">
         <header>Strings</header>
+        <p>A string is a sequence of one or more characters that may include letters, numbers, or symbols.</p>
+        <p>A string is used to store, manipulate, and concatenate values:</p>
+        <p>Concatenate means to join 2 or more strings together using the + strings.</p>
+        <p>The extra space after the name <i>Bart</i> creates a space between the first name and the last name.</p>
+        <code>
+            let firstName = "Bart "<br>
+            let lastName = "Simpson"<br>
+            console.log(firstName + lastName) // Bart Simpson
+       </code>
+       <ul>
+           <li>Strings can use single or double quotes</li>
+           <li>The start and end quotes need to be the same.</li>
+           <li>If there already quotes in the string or an apostrophe use opposite syntax (the other type of quotes)</li>
+       </ul>
+       <code>
+           let firstName = "Bart' // Will not work <br>
+           let firstName = "Bart" // Works<br>
+           let example ='Don't walk' // Will not work<br>
+           let example ="Don't walk" // Works<br>
+           let example ='Don\'t walk' // Also works using the backslash (\) before the apostrophe as an escape character
+       </code>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
     </section>
     <section class="main-section" id="conditional_statements">
         <header>Conditional Statements/if else </header>
@@ -19,12 +54,15 @@
         <header>Switch Statements</header>
     </section>
     <section class="main-section" id="increments_decrements">
-        <header>Increments/decrements</header>
+        <header>Increments/Decrements</header>
     </section>
     <section class="main-section" id="Arrays">
         <header>Arrays</header>
     </section>
-    
+</main>
+
+</body>
+</html>
 
     
           
