@@ -11,7 +11,7 @@
 <body>
    <main id="main-doc">
     <section class="main-section" id="strings">
-        <header>Strings</header>
+        <header><h2>Strings</h2></header>
         <p>A string is a sequence of one or more characters that may include letters, numbers, or symbols.</p>
         <p>A string is used to store, manipulate, and concatenate values:</p>
         <p>Concatenate means to join 2 or more strings together using the + strings.</p>
@@ -33,19 +33,39 @@
            let example ="Don't walk" // Works<br>
            let example ='Don\'t walk' // Also works using the backslash (\) before the apostrophe as an escape character
        </code>
+    </section>
     <hr>
-    </section>
     <section class="main-section" id="conditional_statements">
-        <header>Conditional Statements/if else </header>
-    </section>
+        <header><h2>Conditional Statements/if else </h2></header>
+        <p>An if else statement states that if a certain condition is true a certain action will happen or if it's false another action will happen.</p>
+        <ul>
+            <li>Whatever is between the curly brackets will be translated to a boolean (true or false)</li>
+            <li>If the first statement is true it is executed, if it is false the second statement is excuted</li>
+        </ul>
+        <code>
+            let covidVaccinated = true<br><br>
+            if (covidVaccinated === true){<br>
+                console.log("You may come to the<br> party!")<br>
+            } else {<br>
+                console.log("Please don't come to the party!")<br>
+            }   <br>// You may come to the party!<br><br>
+            let covidVaccinated = false<br><br>
+            if (covidVaccinated === true){<br>
+                console.log("You may come to the <br> party!")
+            } else {<br>
+                console.log("Please don't come to the party!")<br>
+            } <br>// Please don't come to the party!
+        </code>
+     </section>
+    <hr>
     <section class="main-section" id="switch-statements">
-        <header>Switch Statements</header>
+        <header><h2>Conditional Statements/Switch Statements</h2></header>
     </section>
     <section class="main-section" id="increments_decrements">
-        <header>Increments/Decrements</header>
+        <header><h2>Increments/Decrements</h2></header>
     </section>
     <section class="main-section" id="Arrays">
-        <header>Arrays</header>
+        <header><h2>Arrays</h2></header>
     </section>
 </main>
 </body>
