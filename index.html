@@ -17,9 +17,11 @@
         <p>Concatenate means to join 2 or more strings together using the + sign.</p>
         <p>The extra space after the name <i>Bart</i> creates a space between the first name and the last name.</p>
         <code>
-            let firstName = "Bart "<br>
-            let lastName = "Simpson"<br>
+          <pre>
+            let firstName = "Bart "
+            let lastName = "Simpson"
             console.log(firstName + lastName) // Bart Simpson
+           </pre>
        </code>
        <ul>
            <li>Strings can use single or double quotes</li>
@@ -27,11 +29,13 @@
            <li>If there already quotes in the string or an apostrophe use opposite syntax (the other type of quotes)</li>
        </ul>
        <code>
-           let firstName = "Bart' // Will not work <br>
-           let firstName = "Bart" // Works<br>
-           let example ='Don't walk' // Will not work<br>
-           let example ="Don't walk" // Works<br>
+        <pre>
+           let firstName = "Bart' // Will not work 
+           let firstName = "Bart" // Works
+           let example ='Don't walk' // Will not work
+           let example ="Don't walk" // Works
            let example ='Don\'t walk' // Also works using the backslash (\) before the apostrophe as an escape character
+        </pre>
        </code>
     </section>
     <hr>
@@ -43,24 +47,36 @@
             <li>If the first statement is true it is executed, if it is false the second statement is excuted</li>
         </ul>
         <code>
-            let covidVaccinated = true<br><br>
-            if (covidVaccinated === true){<br>
-                console.log("You may come to the<br> party!")<br>
-            } else {<br>
-                console.log("Please don't come to the party!")<br>
-            }   <br>// You may come to the party!<br><br>
-            let covidVaccinated = false<br><br>
-            if (covidVaccinated === true){<br>
-                console.log("You may come to the <br> party!")<br>
-            } else {<br>
-                console.log("Please don't come to the party!")<br>
-            } <br>// Please don't come to the party!
+         <pre>
+            let covidVaccinated = true
+
+            if (covidVaccinated === true){
+                console.log("You may come to the party!")
+            } else {
+                console.log("Please don't come to the party!")
+
+            } // You may come to the party!
+
+
+
+            let covidVaccinated = false
+
+            if (covidVaccinated === true){
+                console.log("You may come to the  party!")
+            } else {
+                console.log("Please don't come to the party!")
+
+            } // Please don't come to the party!
+         </pre>
         </code>
      </section>
     <hr>
     <section class="main-section" id="switch-statements">
         <header><h2>Conditional Statements/Switch Statements</h2></header>
+    <p> A switch statement is used to replace long if/else statements (if/else statements with more than 4 or 5 values).</p>
+    <p>If the expression matches value 1  the code that matches value 1 will be executed. If the expression matches value 2  the code that matches value 2 will be executed.</p>
     </section>
+    <hr>
     <section class="main-section" id="increments_decrements">
         <header><h2>Increments/Decrements</h2></header>
     </section>
