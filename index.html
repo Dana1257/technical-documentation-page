@@ -18,6 +18,8 @@
         <p>The extra space after the name <i>Bart</i> creates a space between the first name and the last name.</p>
         <code>
           <pre>
+        <span><b>Example:</b></span>
+
             let firstName = "Bart "
             let lastName = "Simpson"
             console.log(firstName + lastName) // Bart Simpson
@@ -30,11 +32,13 @@
        </ul>
        <code>
         <pre>
-           let firstName = "Bart' // Will not work 
-           let firstName = "Bart" // Works
-           let example ='Don't walk' // Will not work
-           let example ="Don't walk" // Works
-           let example ='Don\'t walk' // Also works using the backslash (\) before the apostrophe as an escape character
+        <span><b>Examples:</b></span>
+
+            let firstName = "Bart' // Will not work 
+            let firstName = "Bart" // Works
+            let example ='Don't walk' // Will not work
+            let example ="Don't walk" // Works
+            let example ='Don\'t walk' // Also works using the backslash (\) before the apostrophe as an escape character
         </pre>
        </code>
     </section>
@@ -48,6 +52,8 @@
         </ul>
         <code>
          <pre>
+        <span><b>Examples:</b></span>
+
             let covidVaccinated = true
 
             if (covidVaccinated === true){
@@ -74,7 +80,59 @@
     <section class="main-section" id="switch-statements">
         <header><h2>Conditional Statements/Switch Statements</h2></header>
     <p> A switch statement is used to replace long if/else statements (if/else statements with more than 4 or 5 values).</p>
-    <p>If the expression matches value 1  the code that matches value 1 will be executed. If the expression matches value 2  the code that matches value 2 will be executed.</p>
+    <p>If the expression matches value 1 the code that matches value 1 will be executed. If the expression matches value 2  the code that matches value 2 will be executed.</p>
+    <p>A break after each piece of code is mandatory otherwise the next case(s) will be executed until there is a break. In the example below if there is no break after September, the next month October will be executed. </p>
+    <ul>
+       <li>In the example below if it's September the console will show September and when it is October the console will automatically show October. There is no need to do anything else in this case.</li>
+    </ul>
+   <code>
+     <pre>
+        <span><b>Example:</b></span>
+
+            const month = new Date().getMonth();
+
+            switch (month){
+
+            case 0: console.log("It's January");
+            break;
+        
+            case 1: console.log("It's February");
+            break;
+        
+            case 2: console.log("It's March");
+            break;
+        
+            case 3: console.log("It's April");
+            break;
+        
+            case 4: console.log("It's May");
+            break;
+        
+            case 5: console.log("It's June");
+            break;
+        
+            case 6: console.log("It's July");
+            break;
+        
+            case 7: console.log("It's August");
+            break;
+        
+            case 8: console.log("It's September");
+            break;
+        
+            case 9: console.log("It's October");
+            break;
+        
+            case 10: console.log("It's November");
+            break;
+        
+            case 11: console.log("It's December");
+            break;
+        
+            default: console.log("Something went wrong!");
+            }
+     </pre>
+   </code>
     </section>
     <hr>
     <section class="main-section" id="increments_decrements">
