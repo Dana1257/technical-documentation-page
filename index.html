@@ -155,9 +155,28 @@
             // 24
        </pre>
     </code>
-    <p>In the above example the function keyword is declared. Followed by the name of the function (multiply). In parentheses are the parameters; which may have names separated by commas. The code that needs to be executed by the function is placed inside curly brackets. In the example the function is executed  when the name of the function and the arguments in the parentheses are invoked (gets called).
-    </p>
-    </section>
+    <p>In the above example the function keyword is declared. Followed by the name of the function (multiply). In parentheses are the parameters; which may have names separated by commas. The code that needs to be executed by the function is placed inside curly brackets. In the example the function is executed  when the name of the function and the arguments in the parentheses are invoked (gets called).</p>
+    <p>Functions also have a return keyword that ends the function and returns the value so we can store and use the result. In other words the return keyword completes the function and sends back the value that comes back after return to where it was called. With console.log it is not possible to do that because the result is not stored in the function because it is not sent back to where it was called </p>
+    <code>
+      <pre>
+         <span><b>Example:</b></span>
+         
+            function squared (x){
+            return x * x
+            }
+         
+            console.log(squared(4));
+            let result = squared(4);
+            console.log(result * result);
+
+            // 16
+            // 256
+      </pre>
+    </code>
+      <ul>
+         <li>In the example above we used the result (16) and multiplied it by itself. </li>
+      </ul>
+     </section>
     <hr>
     <section class="main-section" id="Arrays">
         <header><h2>Arrays</h2></header>
