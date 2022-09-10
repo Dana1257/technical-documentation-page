@@ -10,7 +10,7 @@
 </head>
 <body>
    <main id="main-doc">
-    <section class="main-section" id="strings">
+    <section class="main-section" id="Strings">
         <header><h2>Strings</h2></header>
         <p>A string is a sequence of one or more characters that may include letters, numbers, or symbols.</p>
         <p>A string is used to store, manipulate, and concatenate values:</p>
@@ -43,8 +43,8 @@
        </code>
     </section>
     <hr>
-    <section class="main-section" id="conditional_statements">
-        <header><h2>Conditional Statements/if else </h2></header>
+    <section class="main-section" id="if_else">
+        <header><h2>if else</h2></header>
         <p>An if else statement states that if a certain condition is true a certain action will happen or if it's false another action will happen.</p>
         <ul>
             <li>Whatever is between the curly brackets will be translated to a boolean (true or false)</li>
@@ -77,8 +77,8 @@
         </code>
      </section>
     <hr>
-    <section class="main-section" id="switch-statements">
-        <header><h2>Conditional Statements/Switch Statements</h2></header>
+    <section class="main-section" id="Switch_Statements">
+        <header><h2>Switch Statements</h2></header>
     <p> A switch statement is used to replace long if/else statements (if/else statements with more than 4 or 5 values).</p>
     <p>If the expression matches value 1 the code that matches value 1 will be executed. If the expression matches value 2  the code that matches value 2 will be executed.</p>
     <p>A break after each piece of code is mandatory otherwise the next case(s) will be executed until there is a break. In the example below if there is no break after September, the next month October will be executed. </p>
@@ -135,7 +135,7 @@
    </code>
     </section>
     <hr>
-    <section class="main-section" id="functions">
+    <section class="main-section" id="Functions">
        <header><h2>Functions</h2></header>
     <ul>
        <li>A JavaScript function is a block of code designed to perform a specific task (Source: w3schools.com).</li>
@@ -180,10 +180,43 @@
     <hr>
     <section class="main-section" id="Arrays">
         <header><h2>Arrays</h2></header>
+        <p>An array is a list of values. The values can be of a variey of data types, even within the same array. In other words multiple values are stored in one variable.</p>
+        <ul>
+            <li>We start counting the items on the list from 0</li>
+            <li>In the example below "Full House" = [0]</li>
+        </ul>
+        <code>
+            <pre>
+          <span><b>Example:</b></span>
+            
+          const tvShows =["Full House", "Party Of Five", "Law and Order", "Dawson's Creek"]
+
+          <span>To access an item from a list:
+          console.log(tvShows[1])</span>
+
+          // Party Of Five
+
+          <span>To find out the data type:</span>
+
+          const tvShows =["Full House", "Party of Five", 5] console.log(typeof tvShows[2]) 
+
+          console.log(typeof tvShows[0]) 
+
+          // number
+          // string
+
+          <span>To Add values to the end of the list use the push()method</span>
+          
+          const tvShows =["Full House", "Party of Five", "Law and Order", "Dawson's Creek"]
+
+          console.log(tvShows.push("Who's The Boss", "Married With Children"))
+
+          console.log(tvShows)
+
+          // (6)["Full House", "Party of Five", "Law and Order", "Dawson's Creek", "Who's The Boss", "Married With Children"]
+         </pre>
+        </code>
     </section>
 </main>
 </body>
 </html>
-
-    
-          
