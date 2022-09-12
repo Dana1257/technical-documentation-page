@@ -6,18 +6,20 @@
    <meta name="viewport" content="width=device-width
    , initial-scale=1.0">
    <script src="javascript.js"></script>
+   <link rel="stylesheet" href="styles.css">
    <title>JavaScript Concepts</title>
 </head>
 <body>
 <nav id="navbar">
     <header>JavaScript Concepts</header>
        <pre>
-  <a href="#Strings"class="nav-link">Strings</a>
-  <a href="#If_Else"class="nav-link">If Else</a>
-  <a href="#Switch_Statements"class="nav-link">Switch Statements</a>
-  <a href="#Functions"class="nav-link">Functions</a>
-  <a href="#Arrays"class="nav-link">Arrays</a>
+  <a href="#Strings" class="nav-link">Strings</a>
+  <a href="#If_Else" class="nav-link">If Else</a>
+  <a href="#Switch_Statements" class="nav-link">Switch Statements</a>
+  <a href="#Functions" class="nav-link">Functions</a>
+  <a href="#Arrays" class="nav-link">Arrays</a>
        </pre>
+  <hr>
 </nav>
    <main id="main-doc">
     <section class="main-section" id="Strings">
@@ -26,31 +28,31 @@
         <p>A string is used to store, manipulate, and concatenate values:</p>
         <p>Concatenate means to join 2 or more strings together using the + sign.</p>
         <p>The extra space after the name <i>Bart</i> creates a space between the first name and the last name.</p>
-        <code>
-          <pre>
-        <span><b>Example:</b></span>
+        <pre>
+            <code>
+      <span><b>Example:</b></span>
 
             let firstName = "Bart "
             let lastName = "Simpson"
             console.log(firstName + lastName) // Bart Simpson
-           </pre>
-       </code>
+            </code>
+        </pre>
        <ul>
            <li>Strings can use single or double quotes</li>
            <li>The start and end quotes need to be the same.</li>
            <li>If there already quotes in the string or an apostrophe use opposite syntax (the other type of quotes)</li>
        </ul>
-       <code>
-        <pre>
-        <span><b>Examples:</b></span>
+       <pre>
+           <code>
+      <span><b>Examples:</b></span>
 
             let firstName = "Bart' // Will not work 
             let firstName = "Bart" // Works
             let example ='Don't walk' // Will not work
             let example ="Don't walk" // Works
             let example ='Don\'t walk' // Also works using the backslash (\) before the apostrophe as an escape character
+          </code>
         </pre>
-       </code>
     </section>
     <hr>
     <section class="main-section" id="If_Else">
@@ -60,8 +62,9 @@
             <li>Whatever is between the curly brackets will be translated to a boolean (true or false)</li>
             <li>If the first statement is true it is executed, if it is false the second statement is excuted</li>
         </ul>
-        <code>
-         <pre>
+        <pre>
+            <code>
+        
         <span><b>Examples:</b></span>
 
             let covidVaccinated = true
@@ -73,7 +76,7 @@
 
             } // You may come to the party!
 
-
+            
 
             let covidVaccinated = false
 
@@ -83,9 +86,9 @@
                 console.log("Please don't come to the party!")
 
             } // Please don't come to the party!
+           </code>
          </pre>
-        </code>
-     </section>
+      </section>
     <hr>
     <section class="main-section" id="Switch_Statements">
         <header><h2>Switch Statements</h2></header>
@@ -95,8 +98,8 @@
     <ul>
        <li>In the example below if it's September the console will show September and when it is October the console will automatically show October. There is no need to do anything else in this case.</li>
     </ul>
-   <code>
-     <pre>
+    <pre>
+    <code>
         <span><b>Example:</b></span>
 
             const month = new Date().getMonth();
@@ -141,8 +144,8 @@
         
             default: console.log("Something went wrong!");
             }
+        </code>    
      </pre>
-   </code>
     </section>
     <hr>
     <section class="main-section" id="Functions">
@@ -151,8 +154,9 @@
        <li>A JavaScript function is a block of code designed to perform a specific task (Source: w3schools.com).</li>
        <li>A Javascript function is executed when is is invoked (gets called) (Source: w3schools.com).</li>
     </ul>
+ <pre>
     <code>
-         <pre>
+        
          <span><b>Example:</b></span>
         
             function multiply (a,b){
@@ -161,14 +165,15 @@
             
              multiply (2,3)
              multiply(8,3)
+
             // 6 
             // 24
-       </pre>
     </code>
+  </pre>
     <p>In the above example the function keyword is declared. Followed by the name of the function (multiply). In parentheses are the parameters; which may have names separated by commas. The code that needs to be executed by the function is placed inside curly brackets. In the example the function is executed  when the name of the function and the arguments in the parentheses are invoked (gets called).</p>
     <p>Functions also have a return keyword that ends the function and returns the value so we can store and use the result. In other words the return keyword completes the function and sends back the value that comes back after return to where it was called. With console.log it is not possible to do that because the result is not stored in the function because it is not sent back to where it was called </p>
-    <code>
-      <pre>
+     <pre>
+        <code>
          <span><b>Example:</b></span>
          
             function squared (x){
@@ -181,8 +186,8 @@
 
             // 16
             // 256
-      </pre>
-    </code>
+        </code>
+     </pre> 
       <ul>
          <li>In the example above we used the result (16) and multiplied it by itself. </li>
       </ul>
@@ -195,8 +200,9 @@
             <li>We start counting the items on the list from 0</li>
             <li>In the example below "Full House" = [0]</li>
         </ul>
-        <code>
-            <pre>
+        <pre>
+         <code>
+            
           <span><b>Example:</b></span>
             
           const tvShows =["Full House", "Party Of Five", "Law and Order", "Dawson's Creek"]
@@ -225,8 +231,8 @@
           console.log(tvShows)
 
           // (6)["Full House", "Party of Five", "Law and Order", "Dawson's Creek", "Who's The Boss", "Married With Children"]
-         </pre>
-        </code>
+         </code>
+    </pre>
     </section>
 </main>
 </body>
