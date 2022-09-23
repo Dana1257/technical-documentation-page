@@ -1,0 +1,91 @@
+body{
+    background-color:tan;
+}
+
+
+
+
+
+
+
+
+@media(min-width:1024px){
+
+    *{
+        box-sizing:border-box;
+     }
+      
+     body{
+        margin:0;
+        padding:0;
+     }
+      
+     .navbar{
+        display:flex;
+        position:relative;
+        justify-content:space-between;
+        align-items:center;
+        background-color:lightcoral;
+     }
+      
+     .title{
+        font-size:2rem;
+        font-weight:bolder;
+        position:relative;
+        left:1rem;
+        color:darkblue;
+     }
+      
+     .navbar-links{
+        height:100%;
+     }
+      
+     .navbar-links ul{
+        display:flex;
+        margin:0;
+        padding:0;
+     }
+      
+     .navbar-links li{
+        list-style:none;
+     }
+      
+     .navbar-links li a{
+        display:block;
+        text-decoration:none;
+        color:darkblue;
+        font-weight:bolder;
+        padding:1rem;
+     }
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+ 
+
+ 
+ 
