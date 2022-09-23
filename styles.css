@@ -1,10 +1,13 @@
-body{
+body, html{
     background-color:thistle;
-}
+    overflow-x:hidden;
+   }
 
 p{
    margin-left:2%;
    font-size:1.2rem;
+   text-align: justify;
+   margin-right:2%;
 }
 
 h2{
