@@ -16,7 +16,7 @@ li{
    font-size:1.2rem;
 }
 
-@media(min-width:1024px){
+@media(min-width:1201px){
 
     *{
         box-sizing:border-box;
