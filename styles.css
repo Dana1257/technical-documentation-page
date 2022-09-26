@@ -1,104 +1,139 @@
 body, html{
     background-color:thistle;
     overflow-x:hidden;
-   }
+}
 
 p{
-   margin-left:2%;
-   font-size:1.2rem;
-   text-align: justify;
-   margin-right:2%;
-}
-
+    margin-left:2%;
+    font-size:1.2rem;
+    text-align: justify;
+    margin-right:2%;
+  }
+   
 h2{
-   margin-left:1%;
-   font-size:2rem;
-}
-
+    margin-left:1%;
+    font-size:2rem;
+ }
+   
 li{
    font-size:1.2rem;
+  }
+
+*{
+    box-sizing:border-box;
 }
 
-@media(min-width:1201px){
+body{
+    margin:0;
+    padding:0;
+}
 
-    *{
-        box-sizing:border-box;
-     }
-      
-     body{
-        margin:0;
-        padding:0;
-     }
-      
-     .navbar{
-        display:flex;
-        position:relative;
-        justify-content:space-between;
-        align-items:center;
-        background-color:lightcoral;
-        padding:1rem;
+hr{
+    height:1.2rem;
+    background-color:black;
+}
+
+.navbar{
+    display:flex;
+    position:relative;
+    justify-content:space-between;
+    align-items:center;
+    background-color:lightcoral;
+    padding:1rem;
+    font-size:1.2rem;
+    border:solid darkblue 3px;
+ }
+
+.title{
+    font-size:1.5rem;
+    margin:.5rem;
+    color:darkblue;
+    font-weight:bolder;
+}
+
+.navbar-links{
+    height:100%;
+}
+
+.navbar-links ul{
+    display:flex;
+    margin:0;
+    padding:0;
+}
+
+.navbar-links li{
+    list-style:none;
+}
+
+.navbar-links li a{
+    display:block;
+    text-decoration:none;
+    color:darkblue;
+    padding:1rem;
+}
+
+.navbar-links li:hover{
+    background-color:yellow;
+    width:50%;
+}
+
+.toggle-button{
+    position:absolute;
+    top:.75rem;
+    right:1rem;
+    display:none;
+    flex-direction:column;
+    justify-content:space-between;
+    width:30px;
+    height:21px;
+}
+
+.toggle-button .bar{
+    height:4px;
+    width:100%;
+    background-color:darkblue;
+    border-radius:10px;
+}
+
+@media (max-width:800px){
+
+    .navbar{
+       justify-content:flex-start;
+       align-items:center;
+    }
+
+    .title{
         font-size:1.2rem;
-        border:solid darkblue 3px;
-     }
-      
-     .title{
-        font-size:2rem;
-        font-weight:bolder;
-        position:relative;
-        left:1rem;
-        color:darkblue;
-     }
-      
-     .navbar-links{
-        height:100%;
-     }
-      
-     .navbar-links ul{
+        margin-left:0;
+    }
+
+    .toggle-button{
+       display:flex;
+    }
+
+    .navbar-links{
+        display:none;
+        width:100%;
+    }
+
+    .navbar-links ul{
+        width:100%;
+        flex-direction:column;
+    }
+
+    .navbar-links ul li{
+        text-align:center;
+    }
+
+    .navbar-links ul li a{
+        padding:.5rem 1rem;
+    }
+
+    .navbar-links.active{
         display:flex;
-        margin:0;
-        padding:0;
-     }
-      
-     .navbar-links li{
-        list-style:none;
-     }
-      
-     .navbar-links li a{
-        display:block;
-        text-decoration:none;
-        color:darkblue;
-        font-weight:bolder;
-        padding:1rem;
-     }
-     
+    }
+      }
+
+   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
- 
-
- 
- 
