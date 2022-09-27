@@ -70,11 +70,12 @@ hr{
     text-decoration:none;
     color:darkblue;
     padding:1rem;
+    font-weight:bolder;
 }
 
 .navbar-links li:hover{
     background-color:yellow;
-    width:50%;
+    padding:0;
 }
 
 .toggle-button{
@@ -95,7 +96,7 @@ hr{
     border-radius:10px;
 }
 
-@media (max-width:800px){
+@media (max-width:1023px){
 
     .navbar{
        justify-content:flex-start;
@@ -129,11 +130,26 @@ hr{
         padding:.5rem 1rem;
     }
 
+    .navbar-links li:hover{
+        background-color:lightgreen;
+        width:50%;
+    }
+
     .navbar-links.active{
         display:flex;
     }
-      }
-
-   
+     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+ 
