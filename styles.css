@@ -14,7 +14,7 @@ h2{
     margin-left:1%;
     font-size:2rem;
  }
-   
+
 li{
    font-size:1.2rem;
   }
@@ -42,7 +42,7 @@ hr{
     padding:1rem;
     font-size:1.2rem;
     border:solid darkblue 3px;
- }
+}
 
 .title{
     font-size:1.5rem;
@@ -140,9 +140,27 @@ hr{
     }
      }
 
+    .container{
+        display:inline-flex;
+        background-color:#282a3a;
+        margin-left:10%;
+        margin-right:10%;
+        color:#fff;
+        gap:10px;
+    }
 
+    .line-numbers span{
+        counter-increment:linenumber;
+    }
 
+    .line-numbers span::before{
+        content:counter(linenumber);
+        color:#506882;
+    }
 
+    .margin-left{
+        margin-left:2.3%
+    }
 
 
 
