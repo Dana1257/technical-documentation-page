@@ -1,6 +1,5 @@
 body, html{
     background-color:thistle;
-    overflow-x:hidden;
 }
 
 p{
@@ -142,11 +141,15 @@ hr{
 
     .container{
         display:inline-flex;
-        background-color:#282a3a;
-        margin-left:10%;
-        margin-right:10%;
+        background-color:black;
+        margin-left:15%;
+        margin-right:15%;
         color:#fff;
         gap:10px;
+        overflow-x:auto;
+        white-space:nowrap;
+        width:340px;
+        height:100px;
     }
 
     .line-numbers span{
@@ -162,12 +165,22 @@ hr{
         margin-left:2.3%
     }
 
+    .blue{
+        color:rgb(14, 144, 195) 
+    }
 
+    .lightblue{
+        color: rgb(0, 217, 255);
+    }
 
+    .orange{
+        color:#ff8550;
+    }
 
+   .yellow{
+    color:rgb(255, 238, 0);
+   }
 
-
-
-
-
- 
+   .green{
+    color:forestgreen
+   }
