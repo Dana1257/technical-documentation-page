@@ -1,5 +1,8 @@
-body, html{
+body,html{
     background-color:thistle;
+    max-width:100%;
+    overflow-x:hidden;
+    
 }
 
 p{
@@ -142,18 +145,19 @@ hr{
     .container{
         display:inline-flex;
         background-color:black;
-        margin-left:15%;
-        margin-right:15%;
+        margin-left:2.2rem;
+        margin-right:2.2rem;
         color:#fff;
         gap:10px;
-        overflow-x:auto;
+        overflow-x:scroll;
         white-space:nowrap;
-        width:340px;
+        width:200px;
         height:100px;
     }
 
     .line-numbers span{
         counter-increment:linenumber;
+        display:block;
     }
 
     .line-numbers span::before{
