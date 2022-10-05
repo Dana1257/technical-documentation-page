@@ -150,6 +150,7 @@ hr{
         color:#fff;
         gap:10px;
         overflow-x:scroll;
+        overflow-y:hidden;
         white-space:nowrap;
         width:200px;
         height:100px;
@@ -188,3 +189,5 @@ hr{
    .green{
     color:forestgreen
    }
+
+   
