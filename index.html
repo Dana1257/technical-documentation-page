@@ -35,7 +35,7 @@
         <p>Concatenate means to join 2 or more strings together using the + sign.</p>
         <p>The extra space after the name <i>Bart</i> creates a space between the first name and the last name.</p>
      <span class="margin-left"><b>Example:</b><br></span><br>
-            <div class="container">
+        <div class="container">
             <code class="line-numbers">
                 <span> <code class="blue">let</code><code class="lightblue"> firstName</code> = <code class="orange">"Bart "</code></span>
                 <span> <code class="blue">let</code> <code class="lightblue">lastName</code> = <code class="orange">"Simpson"</code></span>
@@ -44,24 +44,24 @@
                 <span><code class="green"> // Bart Simpson</code></span>
                 <span></span>
             </code>
-            </div>
+        </div>
        <ul>
            <li>Strings can use single or double quotes</li>
            <li>The start and end quotes need to be the same.</li>
            <li>If there already quotes in the string or an apostrophe use opposite syntax (the other type of quotes)</li>
        </ul>
        <span class="margin-left"><b>Examples:</b><br></span><br>
-        <div class="container">
+    <div class="container">
         <code class="line-numbers">
         <span> <code class="blue">let</code> <code class="lightblue">firstName</code> = <code class="orange">"Bart' </code><code class="green">// Will not work</code> </span>
         <span> <code class="blue">let</code> <code class="lightblue">firstName</code> = <code class="orange">"Bart"</code><code class="green">// Works</code> </span>
         <span> <code class="blue">let</code> <code class="lightblue">example</code> = <code class="orange">'Don't walk'</code><code class="green">// Will not work</code> </span>
         <span> <code class="blue">let</code><code class="lightblue"> example</code> = <code class="orange">"Don't walk" </code><code class="green">// Works</code></span>
         <span> <code class="blue">let</code><code class="lightblue"> example</code> = <code class="orange">'Don\'t walk'</code><code class="green">// Also works using the backslash (\)</code></span>
-        <span><code class="green"> before the apostrophe as an escape character</code></span>
+        <span><code class="green indent-2"> before the apostrophe as an escape character</code></span>
         <span></span>
         </code>
-        </div>
+    </div>
     </section>
     <hr>
     <section class="main-section" id="If_Else">
@@ -71,21 +71,19 @@
             <li>Whatever is between the curly brackets will be translated to a boolean (true or false)</li>
             <li>If the first statement is true it is executed, if it is false the second statement is excuted</li>
         </ul>
-        <pre>
-            <code>
-        
-        <span><b>Examples:</b></span>
-
-            let covidVaccinated = true
-
-            if (covidVaccinated === true){
-                console.log("You may come to the party!")
-            } else {
-                console.log("Please don't come to the party!")
-
-            } // You may come to the party!
-
-
+            <span class="margin-left"><b>Examples:</b><br></span><br>
+        <div class="container">
+            <code class="line-numbers">
+            <span> let covidVaccinated = true</span>
+            <span></span>
+            <span> if (covidVaccinated === true){</span>
+            <span> <code class="indent">console.log("You may come to the party!") </code></span>
+            <span> } else {</span>
+            <span> <code class="indent">console.log</code>("Please don't come to the party!")</span>
+            <span></span>
+            <span> } // You may come to the party!></span>
+            <span></span>
+            <!--
 
             let covidVaccinated = false
 
@@ -94,8 +92,9 @@
             } else {
                 console.log("Please don't come to the party!")
 
-            } // Please don't come to the party!
+            } // Please don't come to the party!-->
            </code>
+        </div>
          </pre>
       </section>
     <hr>
