@@ -150,7 +150,6 @@ hr{
         color:#fff;
         gap:10px;
         overflow-x:scroll;
-        overflow-y:hidden;
         white-space:nowrap;
         width:200px;
         height:100px;
@@ -190,4 +189,10 @@ hr{
     color:forestgreen
    }
 
+   .indent{
+    margin-left:1.8rem;
+   }
    
+   .indent-2{
+    margin-left:0.6rem;
+   }
