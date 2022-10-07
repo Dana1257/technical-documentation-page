@@ -34,7 +34,7 @@
         <p>A string is used to store, manipulate, and concatenate values.</p>
         <p>Concatenate means to join 2 or more strings together using the + sign.</p>
         <p>The extra space after the name <i>Bart</i> creates a space between the first name and the last name.</p>
-     <span class="margin-left"><b>Example:</b><br></span><br>
+     <span class="margin-left"><b>Example:</b><br><br></span>
         <div class="container">
             <code class="line-numbers">
                 <span> <code class="blue">let</code><code class="lightblue"> firstName</code> = <code class="orange">"Bart "</code></span>
@@ -50,7 +50,7 @@
            <li>The start and end quotes need to be the same.</li>
            <li>If there already quotes in the string or an apostrophe use opposite syntax (the other type of quotes)</li>
        </ul>
-       <span class="margin-left"><b>Examples:</b><br></span><br>
+       <span class="margin-left"><b>Examples:</b><br><br></span>
     <div class="container">
         <code class="line-numbers">
         <span> <code class="blue">let</code> <code class="lightblue">firstName</code> = <code class="orange">"Bart' </code><code class="green">// Will not work</code> </span>
@@ -71,7 +71,7 @@
             <li>Whatever is between the curly brackets will be translated to a boolean (true or false)</li>
             <li>If the first statement is true it is executed, if it is false the second statement is excuted</li>
         </ul>
-            <span class="margin-left"><b>Examples:</b><br></span><br>
+            <span class="margin-left"><b>Examples:</b><br><br></span>
         <div class="container">
             <code class="line-numbers">
             <span> <code class="blue">let</code> <code class="lightblue">covidVaccinated</code> = <code class="blue">true</code></span>
@@ -110,54 +110,55 @@
     <ul>
        <li>In the example below if it's September the console will show September and when it is October the console will automatically show October. There is no need to do anything else in this case.</li>
     </ul>
-    <pre>
-    <code>
-        <span><b>Example:</b></span>
-
-            const month = new Date().getMonth();
-
-            switch (month){
-
-            case 0: console.log("It's January");
-            break;
-        
-            case 1: console.log("It's February");
-            break;
-        
-            case 2: console.log("It's March");
-            break;
-        
-            case 3: console.log("It's April");
-            break;
-        
-            case 4: console.log("It's May");
-            break;
-        
-            case 5: console.log("It's June");
-            break;
-        
-            case 6: console.log("It's July");
-            break;
-        
-            case 7: console.log("It's August");
-            break;
-        
-            case 8: console.log("It's September");
-            break;
-        
-            case 9: console.log("It's October");
-            break;
-        
-            case 10: console.log("It's November");
-            break;
-        
-            case 11: console.log("It's December");
-            break;
-        
-            default: console.log("Something went wrong!");
-            }
-        </code>    
-     </pre>
+    <span class="margin-left"><b>Example:</b><br><br></span>
+    <div class="container">
+    <code class="line-numbers">
+        <span> <code class="blue">const</code> <code class="lightblue">month</code> = <code class="blue">new </code> <code class="green">Date</code><code class="yellow">().getMonth()</code></span>
+        <span></span>
+        <span> <code class="purple">switch</code><code class="yellow">(</code><code class="blue">month</code><code class="yellow">)</code><code class="yellow">{</code></span>
+        <span></span>
+        <span> <code class="purple">case</code> 0: console.log("It's January");</span>
+        <span> <code class="purple">break;</code></span>
+        <span></span>
+        <span> <code class="purple">case</code> 1: console.log("It's February");</span>
+        <span> <code class="purple">break;</code></span>
+        <span></span>
+        <span> <code class="purple">case</code> 2: console.log("It's March");</span>
+        <span> <code class="purple">break;</code></span>
+        <span></span>
+        <span> <code class="purple">case</code> 3: console.log("It's April");</span>
+        <span> <code class="purple">break;</code></span>
+        <span></span>
+        <span> <code class="purple">case</code> 4: console.log("It's May");</span>
+        <span> <code class="purple">break;</code></span>
+        <span></span>
+        <span> <code class="purple">case</code> 5: console.log("It's June");</span>
+        <span> <code class="purple">break;</code></span>
+        <span></span>
+        <span> <code class="purple">case</code> 6: console.log("It's July");</span>
+        <span> <code class="purple">break;</code></span>
+        <span></span>
+        <span> <code class="purple">case</code> 7: console.log("It's August");</span>
+        <span> <code class="purple">break;</code></span>
+        <span></span>
+        <span> <code class="purple">case</code> 8: console.log("It's September");</span>
+        <span> <code class="purple">break;</code></span>
+        <span></span>
+        <span> <code class="purple">case</code> 9: console.log("It's October");</span>
+        <span> <code class="purple">break;</code></span>
+        <span></span>
+        <span> <code class="purple">case</code> 10: console.log("It's November");</span>
+        <span> <code class="purple">break;</code></span>
+        <span></span>
+        <span> <code class="purple">case</code> 11: console.log("It's December");</span>
+        <span> <code class="purple">break;</code></span>
+        <span></span>
+        <span> <code class="purple">default:</code>  console.log("Something went wrong!");</span>
+        <span>}</span>
+    </code>
+    </div>
+         
+    </div>
     </section>
     <hr>
     <section class="main-section" id="Functions">
