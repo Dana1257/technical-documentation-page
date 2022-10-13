@@ -212,3 +212,13 @@ hr{
    .align{
    margin-left: 0.5rem;
    }  
+
+   .heading{
+    margin-left:2.3%;
+    justify-content:center;
+   }
+
+   ul li{
+    text-align:justify;
+    margin-right:1.2rem;
+   }
