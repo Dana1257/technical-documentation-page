@@ -71,7 +71,7 @@
             <li>Whatever is between the curly brackets will be translated to a boolean (true or false)</li>
             <li>If the first statement is true it is executed, if it is false the second statement is excuted</li>
         </ul>
-            <span class="margin-left"><b>Examples:</b><br><br></span>
+            <span class="margin-left"><b>Example 1: When the Variable is True </b><br><br></span>
         <div class="container">
             <code class="line-numbers">
             <span> <code class="blue">let</code> <code class="lightblue">covidVaccinated</code> = <code class="blue">true</code></span>
@@ -85,10 +85,11 @@
             <span></span>
             </code>
             </div><br><br><br>
-            
+           
+        <span class="margin-left"><b>Example 2: When the Variable is False </b><br><br></span>  
          <div class="container">
             <code class="line-numbers">
-            <span> <code class="blue">let</code> <code class="lightblue">covidVaccinated</code> = <code class="blue">false</code></span>
+            <span> <code class="blue">let </code><code class="lightblue">covidVaccinated</code> = <code class="blue">false</code></span>
             <span></span>
             <span> <code class="purple">if </code><code class="yellow">(</code><code class="lightblue">covidVaccinated</code> === <code class="blue">true</code><code class="yellow">)</code><code class="yellow">{</code></span>
             <span> <code class="indent lightblue">console.<code class="khaki">log</code><code class="purple">(</code><code class="orange">"You may come to the party!"</code><code class="purple">)</code></code></span>
@@ -213,39 +214,46 @@
             <li>We start counting the items on the list from 0</li>
             <li>In the example below "Full House" = [0]</li>
         </ul>
-        <pre>
-         <code>
-            
-          <span><b>Example:</b></span>
-            
-          const tvShows =["Full House", "Party Of Five", "Law and Order", "Dawson's Creek"]
+        
+        <span class="margin-left"><b>Example 1: Making the List and <div class="margin-left">Accessing Items From the List</div></b><br></span>
+<div class="container">
+     <code class="line-numbers">
+        <span> <code class="blue">const</code> <code class="lightblue">tvShows</code> = <code class="yellow">[</code><code class="orange">"Full House"</code>, <code class="orange">"Party Of Five"</code>, <code class="orange">"Law and Order"</code>, <code class="orange">"Dawson's Creek"</code><code class="yellow">]</code></span>
+        <span></span>
+        <span> <code class="green">// To access an item from a list:</code> </span>
+        <span> <code class="lightblue">console</code>.<code class="khaki">log</code><code class="yellow">(</code><code class="lightblue">tvShows</code><code class="purple">[</code><code class="yellow">1</code><code class="purple">]</code><code class="yellow">)</code></span>
+        <span></span>
+        <span>  <code class="green">// Party Of Five</code></span>
+        <span></span>
+     </code>
+</div><br><br><br>
+       
+<span class="margin-left"><b>Example 2: To Find Out The Data Type</b><br><br></span>
+<div class="container">
+    <code class="line-numbers">
+        <span> <code class="blue">const</code><code class="lightblue"> tvShows</code> = <code class="yellow">[</code><code class="orange">"Full House"</code>,<code class="orange">"Party of Five"</code>,<code class="khaki">5</code><code class="yellow">]</code> </span>
+        <span></span>
+        <span> <code class="lightblue">console</code>.<code class="khaki">log</code><code class="yellow">(</code><code class="blue">typeof </code><code class="lightblue">tvShows</code><code class="purple">[</code><code class="khaki">2</code><code class="purple">]</code><code class="yellow">)</code></span>
+        <span><code class="lightblue"> console</code>.<code class="khaki">log</code><code class="yellow">(</code><code class="blue">typeof </code><code class="lightblue">tvShows</code><code class="purple">[</code><code class="khaki">0</code><code class="purple">]</code><code class="yellow">)</code></span>
+        <span></span>
+        <span> <code class="green"> // number</code></span>
+        <span> <code class="green"> // string</code></span>
+        <span></span>
+    </code>    
+</div><br><br><br>            
 
-          <span>To access an item from a list:
-          console.log(tvShows[1])</span>
-
-          // Party Of Five
-
-          <span>To find out the data type:</span>
-
-          const tvShows =["Full House", "Party of Five", 5] 
-          
-          console.log(typeof tvShows[2]) 
-          console.log(typeof tvShows[0]) 
-
-          // number
-          // string
-
-          <span>To Add values to the end of the list use the push()method</span>
-          
-          const tvShows =["Full House", "Party of Five", "Law and Order", "Dawson's Creek"]
-
-          console.log(tvShows.push("Who's The Boss", "Married With Children"))
-
-          console.log(tvShows)
-
-          // (6)["Full House", "Party of Five", "Law and Order", "Dawson's Creek", "Who's The Boss", "Married With Children"]
-         </code>
-    </pre>
+<span class="margin-left"><b>Example 3: Adding Values to the End of <div class="margin-left">the List Using the push method:</div></b><br></span>
+<div class="container">
+    <code class="line-numbers">
+        <span> <code class="blue">const</code><code class="lightblue"> tvShows</code> = <code class="yellow">[</code><code class="orange">"Full House"</code>,<code class="orange">"Party of Five"</code>,<code class="orange">"Law & Order"</code>,<code class="orange">"Dawson's Creek"</code><code class="yellow">]</code></span>
+        <span></span>
+        <span><code class="lightblue"> console</code>.<code class="khaki">log</code><code class="yellow">(</code><code class="blue"></code><code class="lightblue">tvShows</code>.<code class="khaki">push<code class="purple">(</code><code class="orange">"Who's the Boss"</code>,<code class="orange">"Married with Children"</code><code class="purple">)</code><code class="yellow">)</code></span>
+        <span><code class="lightblue"> console</code>.<code class="khaki">log</code class="yellow"><code>(</code><code class="lightblue">tvShows</code><code class="yellow">)</code></span>
+        <span></span>
+        <span><code class="green"> // (6)["Full House", "Party of Five", "Law and Order", "Dawson's Creek", "Who's The Boss", "Married With Children"]</code></span>
+        <span></span>
+    </code>
+</div>
     </section>
     <hr>
 </main>
