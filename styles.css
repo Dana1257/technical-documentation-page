@@ -35,6 +35,88 @@ hr{
     background-color:black;
 }
 
+.container{
+    display:inline-flex;
+    background-color:black;
+    margin-left:2.2rem;
+    margin-right:2.2rem;
+    color:#fff;
+    gap:10px;
+    overflow-x:scroll;
+    white-space:nowrap;
+    width:12.5rem;
+    height:6.25rem;
+}
+
+.line-numbers span{
+    counter-increment:linenumber;
+    display:block;
+}
+
+.line-numbers span::before{
+    content:counter(linenumber);
+    color:#506882;
+}
+
+.margin-left{
+    margin-left:2.3%
+}
+
+.blue{
+    color:rgb(14, 144, 195) 
+}
+
+.lightblue{
+    color: rgb(0, 217, 255);
+}
+
+.orange{
+    color:#ff8550;
+}
+
+.yellow{
+     color:rgb(255, 238, 0);
+}
+
+.green{
+     color:forestgreen
+}
+
+.indent{
+    margin-left:1.8rem;
+}
+
+.indent-2{
+    margin-left:0.6rem;
+}
+
+.purple{
+    color:magenta
+}
+
+.lightgreen{
+    color:mediumspringgreen;
+}
+
+.khaki{
+    color:khaki
+}
+
+.align{
+    margin-left: 0.5rem;
+}  
+
+.heading{
+     margin-left:2.3%;
+     justify-content:center;
+}
+
+ul li{
+     text-align:justify;
+     margin-right:1.2rem;
+}
+
+
 .navbar{
     display:flex;
     position:relative;
@@ -43,7 +125,7 @@ hr{
     background-color:lightcoral;
     padding:1rem;
     font-size:1.2rem;
-    border:solid darkblue 3px;
+    border:solid darkblue 0.188rem;
 }
 
 .title{
@@ -87,17 +169,40 @@ hr{
     display:none;
     flex-direction:column;
     justify-content:space-between;
-    width:30px;
-    height:21px;
+    width:1.875rem;
+    height:1.313rem;
 }
 
 .toggle-button .bar{
-    height:4px;
+    height:0.25rem;
     width:100%;
     background-color:darkblue;
-    border-radius:10px;
+    border-radius:0.625rem;
 }
 
+@media (min-width:320px){
+
+   .container{
+        width:18.75rem;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 @media (max-width:1023px){
 
     .navbar{
@@ -142,83 +247,4 @@ hr{
     }
      }
 
-    .container{
-        display:inline-flex;
-        background-color:black;
-        margin-left:2.2rem;
-        margin-right:2.2rem;
-        color:#fff;
-        gap:10px;
-        overflow-x:scroll;
-        white-space:nowrap;
-        width:200px;
-        height:100px;
-    }
-
-    .line-numbers span{
-        counter-increment:linenumber;
-        display:block;
-    }
-
-    .line-numbers span::before{
-        content:counter(linenumber);
-        color:#506882;
-    }
-
-    .margin-left{
-        margin-left:2.3%
-    }
-
-    .blue{
-        color:rgb(14, 144, 195) 
-    }
-
-    .lightblue{
-        color: rgb(0, 217, 255);
-    }
-
-    .orange{
-        color:#ff8550;
-    }
-
-   .yellow{
-    color:rgb(255, 238, 0);
-   }
-
-   .green{
-    color:forestgreen
-   }
-
-   .indent{
-    margin-left:1.8rem;
-   }
-   
-   .indent-2{
-    margin-left:0.6rem;
-   }
-
-   .purple{
-    color:magenta
-   }
-
-   .lightgreen{
-    color:mediumspringgreen;
-   }
-
-   .khaki{
-    color:khaki
-   }
-
-   .align{
-   margin-left: 0.5rem;
-   }  
-
-   .heading{
-    margin-left:2.3%;
-    justify-content:center;
-   }
-
-   ul li{
-    text-align:justify;
-    margin-right:1.2rem;
-   }
+    
