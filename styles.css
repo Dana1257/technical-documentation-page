@@ -188,22 +188,15 @@ ul li{
    .container{
         width:18.75rem;
    }
+  
+   .font-size{
+       font-size:1.7rem;
+   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+   .long-example{
+       font-size:1.2rem;
+   }
+     }
 @media (max-width:1023px){
 
     .navbar{
