@@ -197,6 +197,47 @@ ul li{
        font-size:1.2rem;
    }
      }
+
+@media (min-width:481px){
+
+    .title{
+        font-size:1.8rem;
+    }
+
+   .container{
+       width:29rem;
+       height:10rem;
+    }
+
+    .navbar-links li a{
+        font-size:1.5rem;
+    }
+
+    .long-example{
+        font-size:1.9rem;
+    }
+      }
+
+  @media(min-width:768px){
+     .title{
+        font-size:2.7rem;
+     }
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
 @media (max-width:1023px){
 
     .navbar{
@@ -204,10 +245,10 @@ ul li{
        align-items:center;
     }
 
-    .title{
+    /*.title{
         font-size:1.2rem;
         margin-left:0;
-    }
+    }*/
 
     .toggle-button{
        display:flex;
