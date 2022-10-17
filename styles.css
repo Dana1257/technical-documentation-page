@@ -39,7 +39,6 @@ hr{
     display:inline-flex;
     background-color:black;
     color:#fff;
-    gap:10px;
     overflow-x:scroll;
     white-space:nowrap;
     height:6.25rem;
