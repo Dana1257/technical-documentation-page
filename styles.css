@@ -38,14 +38,15 @@ hr{
 .container{
     display:inline-flex;
     background-color:black;
-    margin-left:2.2rem;
-    margin-right:2.2rem;
     color:#fff;
     gap:10px;
     overflow-x:scroll;
     white-space:nowrap;
-    width:12.5rem;
     height:6.25rem;
+    margin-right:10%;
+    margin-left:10%;
+    margin-bottom:6%;
+    width:80%;
 }
 
 .line-numbers span{
@@ -120,6 +121,10 @@ ul li{
      font-size:1.375rem;
 }
 
+.line-height{
+    line-height:2;
+}
+
 .navbar{
     display:flex;
     position:relative;
@@ -190,9 +195,9 @@ ul li{
         width:22rem;
    }
   
-   .font-size{
+   /*.font-size{
        font-size:1.7rem;
-   }
+   }*/
 
    .long-example{
        font-size:1.2rem;
@@ -219,9 +224,9 @@ ul li{
     }
       }
 
-    .font-size{
+    /*.font-size{
         font-size:2.3rem;
-    }
+    }*/
 
   @media(min-width:768px){
      .title{
