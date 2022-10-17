@@ -50,6 +50,17 @@ hr{
     height:9rem;
 }
 
+.container::-webkit-scrollbar{
+    background-color:black;
+    width:5px;
+    height:5px;
+}
+
+.container::-webkit-scrollbar-thumb{
+     background-color:magenta;
+     border-radius:50px;
+}
+
 .line-numbers span{
     counter-increment:linenumber;
     display:block;
