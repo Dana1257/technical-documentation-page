@@ -52,13 +52,13 @@ hr{
 
 .container::-webkit-scrollbar{
     background-color:black;
-    width:5px;
-    height:5px;
+    width:0.313rem;
+    height:0.313rem;
 }
 
 .container::-webkit-scrollbar-thumb{
      background-color:magenta;
-     border-radius:50px;
+     border-radius:3.125rem;
 }
 
 .line-numbers span{
@@ -301,6 +301,16 @@ ul li{
     .navbar-links.active{
         display:flex;
     }
+
+
+
+
+
+
+
+
+
+
      }
 
     
