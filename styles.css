@@ -244,6 +244,16 @@ ul li{
     }
  }
 
+@media(min-width:1201px){
+    .title{
+        font-size:2rem;
+    }
+   
+    .navbar-links ul li a{
+        font-size:1.1rem;
+    }
+}
+
 @media (max-width:1080px){
 
     .navbar{
