@@ -192,12 +192,11 @@ ul li{
 }
 
 @media (min-width:320px){
-  
-   /*.font-size{
-       font-size:1.7rem;
-   }*/
-
-   .long-example{
+     .title{
+        font-size:1.5rem;
+     }
+   
+    .long-example{
        font-size:1.2rem;
    }
      }
