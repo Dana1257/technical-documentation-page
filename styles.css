@@ -46,7 +46,9 @@ hr{
     margin-right:10%;
     margin-left:10%;
     margin-bottom:6%;
+    margin-top:0;
     width:80%;
+    height:9rem;
 }
 
 .line-numbers span{
@@ -137,7 +139,7 @@ ul li{
 }
 
 .title{
-    font-size:1.5rem;
+    font-size:1.2rem;
     margin:.5rem;
     color:darkblue;
     font-weight:bolder;
@@ -190,10 +192,6 @@ ul li{
 }
 
 @media (min-width:320px){
-
-   .container{
-        width:22rem;
-   }
   
    /*.font-size{
        font-size:1.7rem;
@@ -208,11 +206,6 @@ ul li{
 
     .title{
         font-size:1.8rem;
-    }
-
-   .container{
-       width:29rem;
-       height:10rem;
     }
 
     .navbar-links li a{
@@ -232,11 +225,6 @@ ul li{
      .title{
         font-size:2.7rem;
     }
-
-     .container{
-        width:44rem;
-        height:13rem;
-     }
 
      .navbar{
         padding:2.3rem;
