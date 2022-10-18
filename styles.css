@@ -1,7 +1,7 @@
 ::-webkit-scrollbar-thumb{
     background-color:magenta;
     -webkit-appearence:none;
-    width:0.313rem;
+    width:2rem !important;
 }
 
 body,html{
