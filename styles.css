@@ -146,6 +146,7 @@ ul li{
     padding:1rem;
     font-size:1.2rem;
     border:solid darkblue 0.188rem;
+    width:100%;
 }
 
 .title{
@@ -284,33 +285,6 @@ ul li{
 
 @media(min-width:1440px){
 
-   ::-webkit-scrollbar{
-        width:1.5vw;
-   } 
-
-  ::-webkit-scrollbar-track{
-       background-color:black;
-       border-radius:0.8vw;
-    
-   }
-  
-   ::-webkit-scrollbar-thumb{
-       background-color:magenta;
-       border-radius:3vw;
-       border:6px solid transparent;
-       background-clip:content-box;
-   }
-
-  .container::-webkit-scrollbar{
-    background-color:black;
-    width:0.313rem;
-    height:0.313rem;
-  }
-
-  .container::-webkit-scrollbar-thumb{
-    background:magenta;
-  }
-
   .title{
     font-size:3.5rem;
 }
@@ -319,8 +293,43 @@ ul li{
     font-size:1.3rem;
     padding:0.313rem;
 }
+
+h2{
+    padding-top:10rem;
   }
 
+ .navbar{
+    position:fixed;
+ }
+
+ ::-webkit-scrollbar{
+    width:1.5vw;
+} 
+
+::-webkit-scrollbar-track{
+   background-color:black;
+   border-radius:0.8vw;
+
+}
+
+::-webkit-scrollbar-thumb{
+   background-color:magenta;
+   border-radius:3vw;
+   border:6px solid transparent;
+   background-clip:content-box;
+}
+
+.container::-webkit-scrollbar{
+background-color:black;
+width:0.313rem;
+height:0.313rem;
+}
+
+.container::-webkit-scrollbar-thumb{
+background:magenta;
+}
+  }
+   
 @media (max-width:1201px){
 
     .navbar{
