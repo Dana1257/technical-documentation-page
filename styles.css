@@ -266,11 +266,6 @@ ul li{
     code{
         font-size: 1.5rem;
     }
-
-
-    .bottom-hr{
-        background-color:magenta;
-    }
      }
 
 @media(min-width:1201px){
@@ -301,6 +296,10 @@ h2{
  .navbar{
     position:fixed;
  }
+
+ .bottom-hr{
+    background-color:magenta;
+}
 
  ::-webkit-scrollbar{
     width:1.5vw;
